@@ -33,6 +33,11 @@ class Binary_tree:
 
     
     def paint(self):
+        if self.root is None:
+            print ("The Binary Tree is empty, Nothing to print")
+            return
+        
+        
         print("Binary Tree (in_order):")
         self.in_order(self.root)
         print("None")
