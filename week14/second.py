@@ -56,6 +56,17 @@ class Route:
             print("Route is None")
             return None
         
+        data=self.right.data
+
+        if self.right==self.left:
+            self.right=self.left= None
+
+        else:
+            self.right=self.right.prev
+            self.right.nex = None
+
+            return data
+        
 
         if self.right== self.left:
             data= self.right.data
