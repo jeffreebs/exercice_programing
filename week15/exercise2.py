@@ -3,7 +3,7 @@ def bubble_sort_num(list):
     for n in range (l):
         for x in range (l-1,n,-1):
             if list[x]<list[x-1]:
-                list[x],list[n-1]=list[x-1],list[n]
+                list[x],list[x-1]=list[x-1],list[x]
     return list
 
 
