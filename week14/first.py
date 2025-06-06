@@ -19,7 +19,7 @@ class Pile:
 
     def pop(self):
         if self.top is None:
-            print("The pile es none, not have nothing to deleted")
+            print("The pile is none, not have nothing to deleted")
             return None
         
         removed_node=self.top

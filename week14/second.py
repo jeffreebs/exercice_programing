@@ -63,7 +63,7 @@ class Route:
 
         else:
             self.right=self.right.prev
-            self.right.nex = None
+            self.right.next = None
 
             return data
         

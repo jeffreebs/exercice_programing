@@ -44,6 +44,39 @@ class LinkedList:
                     swapped = True
                 current = current.next
 
+    # def bubble_sort(self):
+    #     if not self.head or not self.head.next:
+    #         return
+
+    #     swapped= True
+    #     while swapped:
+    #         swapped= False
+    #         prev=None
+    #         current = self.head
+
+
+    #         while current and current.next:
+    #             a= current
+    #             b=current.next
+
+    #             if a.data> b.data:
+    #                 swapped= True
+
+    #                 a.next = b.next
+    #                 b.next = a
+
+    #                 if prev:
+    #                     prev.next =b
+    #                 else:
+    #                     self.head = b
+                    
+
+    #                 prev=b
+    #                 current=a
+    #             else:
+    #                 prev = current
+    #                 current = current.next
+
 
 element=LinkedList()
 
